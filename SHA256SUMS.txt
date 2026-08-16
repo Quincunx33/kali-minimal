@@ -1,1 +1,1 @@
-96a12891083b23b0d93b08b47b122d5bf5d7fbee060852ba431c14987302ee0e  /home/ubuntu/kali32/kali-32bit-ultra-mini-utm.iso
+96a12891083b23b0d93b08b47b122d5bf5d7fbee060852ba431c14987302ee0e  kali-32bit-ultra-mini.iso

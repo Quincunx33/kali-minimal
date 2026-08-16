@@ -1,11 +1,13 @@
 # kali-minimal
 
-এটি 32-bit i386 Kali Linux-এর terminal-only ultra-minimal ISO release। ISO-টি QEMU-তে Legacy i440FX machine, IDE CD-ROM এবং 1024MB RAM দিয়ে boot করে `kali@kali-32-tiny:~$` prompt-এ পৌঁছেছে।
+This repository provides a 32-bit i386, terminal-only, ultra-minimal Kali Linux ISO for low-resource x86 virtual machines.
 
-এই repository-তে source code বা development files নেই। ISO-টি GitHub Release asset হিসেবে দেওয়া হয়েছে।
+The ISO was boot-tested in QEMU with a legacy i440FX machine, IDE CD-ROM, 1024 MB RAM, and one CPU core. It reached the `kali@kali-32-tiny:~$` shell prompt.
+
+This repository contains no source code or development files. The ISO is published as a GitHub Release asset.
 
 ## Release asset
 
-`kali-32bit-ultra-mini-utm.iso`
+`kali-32bit-ultra-mini.iso`
 
-SHA-256 hash `SHA256SUMS.txt` ফাইলে দেওয়া আছে।
+The SHA-256 checksum is provided in `SHA256SUMS.txt`.
