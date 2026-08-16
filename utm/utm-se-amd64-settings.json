@@ -1,0 +1,31 @@
+{
+  "format": "UTM SE settings manifest",
+  "importableBundle": false,
+  "note": "Use these values in UTM SE. Attach the ISO manually because UTM .utm bundles contain host-specific bookmarks and configuration metadata.",
+  "name": "Kali Minimal amd64 Terminal",
+  "backend": "qemu",
+  "architecture": "x86_64",
+  "machine": "pc",
+  "memoryMiB": 768,
+  "cpuCores": 2,
+  "hypervisor": false,
+  "uefi": false,
+  "display": "none or text/serial console",
+  "serial": {
+    "hardware": "isa-serial",
+    "interface": "ptty"
+  },
+  "drive": {
+    "removable": true,
+    "interface": "IDE",
+    "source": "kali-amd64-ultra-mini.iso"
+  },
+  "network": {
+    "mode": "shared",
+    "hardware": "e1000"
+  },
+  "boot": {
+    "bootFrom": "CD/DVD",
+    "kernelArguments": "console=ttyS0"
+  }
+}
