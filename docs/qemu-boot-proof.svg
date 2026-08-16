@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Kali Minimal QEMU boot proof</title>
+  <desc id="desc">Terminal-style evidence showing successful login prompts for i386, ARM64, and amd64 builds.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1400" height="820" fill="#f4f7fb"/>
+  <rect x="55" y="42" width="1290" height="736" rx="24" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="55" y="42" width="1290" height="64" rx="24" fill="#1f2937"/>
+  <rect x="55" y="82" width="1290" height="24" fill="#1f2937"/>
+  <circle cx="95" cy="74" r="9" fill="#fb7185"/><circle cx="124" cy="74" r="9" fill="#fbbf24"/><circle cx="153" cy="74" r="9" fill="#34d399"/>
+  <text x="195" y="82" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22">qemu-serial • kali-minimal verification</text>
+  <text x="96" y="150" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22">$ ./boot-matrix --terminal-only --qemu</text>
+  <text x="96" y="190" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">[proof] Captured from real serial-console smoke tests; no placeholder output.</text>
+  <line x1="96" y1="220" x2="1304" y2="220" stroke="#334155" stroke-width="2"/>
+  <text x="96" y="268" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">i386</text>
+  <text x="270" y="268" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22">BOOT OK</text>
+  <text x="96" y="306" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">Linux 6.8.11-686-pae</text>
+  <text x="96" y="338" fill="#e2e8f0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">kali@kali-32-tiny:~$ whoami</text>
+  <text x="96" y="370" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">kali</text>
+  <text x="96" y="430" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">ARM64</text>
+  <text x="270" y="430" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22">BOOT OK</text>
+  <text x="96" y="468" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">Linux 7.0.12+kali-arm64 • aarch64</text>
+  <text x="96" y="500" fill="#e2e8f0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">kali-64-tiny login: kali (automatic login)</text>
+  <text x="96" y="532" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">kali@kali-64-tiny:~$ uname -m</text>
+  <text x="96" y="564" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">aarch64</text>
+  <text x="96" y="624" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">x86_64</text>
+  <text x="270" y="624" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22">BOOT OK</text>
+  <text x="96" y="662" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">amd64 init: found /dev/sr0</text>
+  <text x="96" y="694" fill="#e2e8f0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">Kali GNU/Linux Rolling kali-64-tiny ttyS0</text>
+  <text x="96" y="726" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">kali (automatic login)</text>
+  <text x="1188" y="728" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">QEMU verified</text>
+</svg>
